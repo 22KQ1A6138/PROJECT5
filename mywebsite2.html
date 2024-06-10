@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+     <title>Navigation Menu Example</title>
+    <style>   
+       @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+
+        body{
+            background-size: cover;
+        }
+        /* CSS for styling the navigation menu */
+        nav {
+            background-color:darkblue;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        h1{
+          color:black;
+        }
+        p{
+          color:black;
+        }
+    </style>
+</head>
+<body>
+  <body background="C:\Users\slv\Desktop\UI development\la.jpg"></body>
+    <nav>
+        <ul>
+            <li><a href="C:\Users\slv\Desktop\UI development\project5\reg2.html">REGISTRATION</a></li>
+            <li><a href="C:\Users\slv\Desktop\UI development\project5\login.html">LOGIN</a></li>
+            <li><a href="C:\Users\slv\Desktop\UI development\project5\about.html">ABOUT</a></li>
+            <li><a href="C:\Users\slv\Desktop\UI development\project5\contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to Our Website</h1>
+    <p>This is a sample website with a navigation menu.</p>
+</body>
+</html>
